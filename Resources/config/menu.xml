@@ -22,7 +22,6 @@
         </service>
         <service id="sonata.admin.menu.matcher.voter.children" class="Sonata\AdminBundle\Menu\Matcher\Voter\ChildrenVoter">
             <argument type="service" id="knp_menu.matcher"/>
-            <tag name="knp_menu.voter"/>
         </service>
         <service id="sonata.admin.menu.matcher.voter.active" class="Sonata\AdminBundle\Menu\Matcher\Voter\ActiveVoter">
             <tag name="knp_menu.voter"/>
